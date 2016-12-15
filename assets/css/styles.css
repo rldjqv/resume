@@ -102,8 +102,7 @@ p {
 .sidebar-wrapper .container-block {
   padding: 30px;
 }
-.sidebar-wrapper .container-block-title {
-  text-transform: uppercase;
+.sidebar-wrapper .container-block-title {  
   font-size: 16px;
   font-weight: 700;
   margin-top: 0;
@@ -157,8 +156,7 @@ p {
   padding: 60px;
   padding-right: 300px;
 }
-.main-wrapper .section-title {
-  text-transform: uppercase;
+.main-wrapper .section-title { 
   font-size: 20px;
   font-weight: 500;
   color: #2d7788;
@@ -188,7 +186,7 @@ p {
   top: -2px;
 }
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
