@@ -26,10 +26,12 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <script>
-      $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-      })
-  </script>
+    </script>
+    <style>
+    h5 {
+      margin-left: -25px;
+    }
+    </style>
   </head>
   <body>
     <div class="container resume">
@@ -108,8 +110,10 @@
         <div class="col-12 col-md-9">
         <p>3년 차 개발자로서의 경험을 쌓아가고 있습니다. Java, Spring, RESTFul API, Vue.js 등을 사용하여 솔루션 설계, 개발, 운영의 업무를 맡고 있습니다. 확장성과 유지 보수성이 높은 개발을 하기 위해 노력해 왔습니다.</p>
         <p>트렌드에 뒤처지지 않는 감각으로 미래 지향적인 콘텐츠를 연구ㆍ개발하기 위해 노력하며, 미래 기술 동향에 관심이 많아 대학원을 재학하며 학업에도 집중하고 있습니다. 언제나 풀 스택 개발자로서 정점을 찍고 싶다고 생각하고 있으며 다양한 기술을 학습하거나 사용, 문제 해결을 통해 개발자로서 발전하기 위해 노력하고 있습니다.</p>
+        <br />
         </div>
       </div>
+      <hr />
       <!-- Introduce End -->
 
       <!-- Skills Start -->
@@ -121,13 +125,10 @@
                 <span class="blue">
                   SKILLS
                 </span>
-<!--                <small data-toggle="tooltip" title="1: 기초 수준, 2: 취미 개발 수준, 3: Production 개발 가능 수준">
-                  <i class="fa fa-question-circle" aria-hidden="true"></i>
-                </small>-->
               </h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row">            
             <div class="col-12 col-md-3 text-md-right">
               <h4 class="gray">Back-end</h4>
             </div>
@@ -137,27 +138,56 @@
                   <ul>
                     <li>Java</li>
                     <li>Mybatis</li>
-                    <li>Tomcat</li>
+                    <li>Linux</li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
                     <li>Spring</li>
-                    <li>MVC</li>
-                    <li>Jeus</li>
+                    <li>Ionic Framework</li>
+                    <li>Tomcat</li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
                     <li>RESTFul API</li>
-                    <li>Ionic Framework</li>
+                    <li>npm</li>
+                    <li>Jeus</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
           <hr />
-
+          <div class="row">
+              <div class="col-12 col-md-3 text-md-right">
+                <h4 class="gray">Front-end</h4>
+              </div>
+              <div class="col-12 col-md-9">
+                <div class="row">
+                  <div class="col">
+                    <ul>
+                      <li>JavaScript</li>
+                      <li>jQuery</li>
+                      <li>CSS</li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <li>Vue.js</li>
+                      <li>TypeScript</li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <li>AngularJS</li>
+                      <li>HTML</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <hr />
           <div class="row">
             <div class="col-12 col-md-3 text-md-right">
               <h4 class="gray">Database</h4>
@@ -166,56 +196,25 @@
               <div class="row">
                 <div class="col">
                   <ul>
-                    <li>Oracle</li>
                     <li>Mysql</li>
+                    <li>PostgreSQL</li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
-                    <li>Tibero</li>
+                    <li>Oracle</li>
                     <li>ElasticSearch</li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
-                    <li>PostgreSQL</li>
+                    <li>Tibero</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
           <hr />
-
-          <div class="row">
-            <div class="col-12 col-md-3 text-md-right">
-              <h4 class="gray">Front-end</h4>
-            </div>
-            <div class="col-12 col-md-9">
-              <div class="row">
-                <div class="col">
-                  <ul>
-                    <li>JavaScript</li>
-                    <li>Vue.js</li>
-                    <li>CSS</li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul>
-                    <li>jQuery</li>
-                    <li>AngularJS</li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul>
-                    <li>TypeScript</li>
-                    <li> HTML</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr />
-
           <div class="row">
             <div class="col-12 col-md-3 text-md-right">
               <h4 class="gray">Etc</h4>
@@ -224,26 +223,24 @@
               <div class="row">
                 <div class="col">
                   <ul>
-                    <li>Linux</li>
-                    <li>JasperReport</li>
-                  </ul>
-                </div>
-                <div class="col">
-                  <ul>
                     <li>Git / SVN</li>
-                    <li>Redmine</li>
+                    <li>Social Network Service API</li>
                   </ul>
                 </div>
                 <div class="col">
                   <ul>
-                    <li>vi</li>
-                    <!-- <li>Jenkins</li> -->
+                    <li>JasperReport</li>
+                    <li>Vim</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>GCP</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
       <!-- Skills End -->
@@ -271,29 +268,34 @@
                 </div>
                 <div class="col-md-9 col-12">
                   <h4>피플커넥트</h4>
-                  <i class="gray">기술개발실 사원</i>
+                  <i class="gray">RestFul API 서버 개발 및 Ionic Framework 하이브리드 앱 개발</i>
                   <ul class="pt-3">
-                    <!-- <li>GRID 서비스</li> -->
-                    <!-- <li>CLOUD 서비스</li> -->
-                    <li>골프부킹 어플리케이션 - 이츠골프</li>
-                    <li><a href="http://itsgolf.co.kr" target="_blank">Web</a></li>
-                    <li><a href="http://m.itsgolf.co.kr" target="_blank">Mobile Web</a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=com.kgrid.itsgolf.app">Android</a></li>
-                    <li><a href="https://itunes.apple.com/kr/app/icheugolpeu-hal-ingolpeubuking/id1137814166?mt=8">iOS</a></li>
-                    <li><strong>Skill Keywords</strong></li>
-                    <div>
-                    <span class="badge badge-secondary">Spring</span>
-                    <span class="badge badge-secondary">RESTFul API</span>
-                    <span class="badge badge-secondary">Java</span>
-                    <span class="badge badge-secondary">JavaScript</span>
-                    <span class="badge badge-secondary">jQuery</span>
-                    <span class="badge badge-secondary">AngularJS</span>
-                    <span class="badge badge-secondary">Ionic</span>
-                    <span class="badge badge-secondary">Apache Cordova</span>
-                    <span class="badge badge-secondary">Hybrid App</span>
-                    <span class="badge badge-secondary">Mysql</span>
-                    <span class="badge badge-secondary">Kakao&Naver API</span>
-                    </div>
+                    <h5>1. 골프부킹 서비스(이츠골프) 하이브리드 앱</h5>
+                    <div><strong>[참여기간]</strong> 2018.10 ~ 현재</div>
+                    <div><strong>[담당업무]</strong> Back-end 서버 개발과 Android 및 MobileWeb 플랫폼 하이브리드 앱 개발</div>
+                    <div><strong>[주요실적]</strong></div>
+                    <div>&nbsp; &nbsp; 1. MobileWeb 플랫폼을 개발함으로써 사용자 유입 지난해 같은 월 대비 150% 이상 증가</div>
+                    <div>&nbsp; &nbsp; 2.	카카오 및 네이버 아이디로 로그인을 개발하여 지난해 같은 월 대비 회원가입수 150% 이상 증가</div>
+                    <div>&nbsp; &nbsp; 3.	사용자, 매니저들의 UX를 반영하여 유지보수 개발 (API 및 Android, iOS, MobileWeb 플랫폼)</div>
+                    <div>&nbsp; &nbsp; 4.	SQL Query 튜닝 및 소스 리팩토링을 통하여 시스템 안정화 및 리소스 부족 해결</div>
+                    <div>&nbsp; &nbsp; 5.	배치프로세스 모니터링 시스템 개발 및 Scouter APM 을 구축하여 관리자들의 모니터링 시스템 및 자동화 구축</div>
+                    <div><strong>[사용기술]</strong></div>
+                    <div><strong>&nbsp; &nbsp; Back-end : Java, Spring3, RESTFul API, Spring Boot 2, Mybatis, Ionic Framework, npm, Linux, Tomcat</strong></div>
+                    <div><strong>&nbsp; &nbsp; Front-end : JavaScript, AngularJS, TypeScript, Vue.js, jQuery, JSP, HTML, CSS</strong></div>
+                    <div><strong>&nbsp; &nbsp; DB : Mysql, Oracle</strong></div>
+                    <div><strong>&nbsp; &nbsp; ETC : Social Network Service API</strong></div>
+                    <br/>
+                    <h5>2. 파이썬 프로그래밍</h5>
+                    <div><strong>[참여기간]</strong> 주단위 단기간 팝업성 업무</div>
+                    <div><strong>[담당업무]</strong> 서비스 운영시 필요한 스크립트 및 자동화 프로그램 개발</div>
+                    <div><strong>[주요실적]</strong></div>
+                    <div>&nbsp; &nbsp; 1.	GRID 트래픽 하락시 실시간 문자 알림 배치프로그램 개발</div>
+                    <div>&nbsp; &nbsp; 2.	ZABBIX(오픈소스 네트워크 모니터링 시스템) 호스트 및 스크린 등록 프로그램 개발</div>
+                    <div>&nbsp; &nbsp; 3.	고객사 대용량 파일 덤프 프로그램 개발</div>
+                    <div>&nbsp; &nbsp; 4.	데몬 소켓 통신 프로그램 개발</div>
+                    <div><strong>[사용기술]</strong></div>
+                    <div><strong>&nbsp; &nbsp; Back-end : Python3, Linux, Vim, pip</strong></div>
+                    <div><strong>&nbsp; &nbsp; DB : Mysql, MS-SQL</strong></div>
                   </ul>
                 </div>
               </div>
@@ -309,234 +311,105 @@
                       <h4 class="gray">2017. 03 ~ 2018. 09<br /></h4>
                     </div>
                     <div class="col-md-12 col-3 text-center text-md-right">
-                        <!-- <span class="badge badge-primary">재직 중</span> -->
                     </div>
                   </div>
                 </div>
                 <div class="col-md-9 col-12">
                   <h4>위즈디엔에스코리아 (WEEDS DNS KOREA)</h4>
-                  <i class="gray">기술개발연구소 전임연구원</i>
+                  <i class="gray">Vue.js Front-end 개발 및 Spring4 + Mybatis + PostgreSQL 기반 RESTFul API 서버 개발</i>
                   <ul class="pt-3">
-                    <li>개인정보 접속기록 관리 솔루션</li>
-                    <li><strong>Skill Keywords</strong></li>
-                    <div>
-                    <span class="badge badge-secondary">Spring</span>
-                    <span class="badge badge-secondary">RESTFul API</span>
-                    <span class="badge badge-secondary">Java</span>
-                    <span class="badge badge-secondary">JavaScript</span>
-                    <span class="badge badge-secondary">jQuery</span>
-                    <span class="badge badge-secondary">Vue.js</span>
-                    <span class="badge badge-secondary">Ajax</span>
-                    <span class="badge badge-secondary">Mybatis</span>
-                    <span class="badge badge-secondary">ElasticStack</span>
-                    <span class="badge badge-secondary">Oracle</span>
-                    <span class="badge badge-secondary">PostgreSQL</span>
-                    <span class="badge badge-secondary">Mysql</span>
-                    <span class="badge badge-secondary">Apache Tomcat</span>
-                    <span class="badge badge-secondary">Tibero</span>
-                    <span class="badge badge-secondary">JasperReport</span>
-                    <span class="badge badge-secondary">centOS</span>
-                    <span class="badge badge-secondary">vi</span>
-                    <span class="badge badge-secondary">tcpdump</span>
-                    <span class="badge badge-secondary">JasperReport</span>
-                    <span class="badge badge-secondary">SVN</span>
-                    </div>
-                  </ul>
+                      <h5>1. 개인정보 접속기록 관리 솔루션 개발 (WEEDS Blackbox Suite 7 메이저 업그레이드)</h5>
+                      <div><strong>[참여기간]</strong> 2018.03 ~ 2018.09</div>
+                      <div><strong>[담당업무]</strong> Vue.js를 이용한 Front-end 개발 및 Spring4기반 RESTFul API 서버 개발</div>
+                      <div><strong>[주요실적]</strong></div>
+                      <div>&nbsp; &nbsp; 1. Spring4 + Mybatis + PostgreSQL기반 RESTFul API Back-End 개발</div>
+                      <div>&nbsp; &nbsp; 2.	Vue.js를 이용한 Front-End 개발</div>
+                      <div>&nbsp; &nbsp; 3.	Linux상 ElasticStack 인프라 구축</div>
+                      <div>&nbsp; &nbsp; 4.	API 서버와 ElasticSearch 서버 통신 API Service 로직 구현 및 개발</div>
+                      <div>&nbsp; &nbsp; 5.	개인정보 수준진단을 위한 보고서 3종 개발</div>
+                      <div><strong>[사용기술]</strong></div>
+                      <div><strong>&nbsp; &nbsp; Back-end : Java, Spring4, RESTFul API, Mybatis, Linux, Tomcat</strong></div>
+                      <div><strong>&nbsp; &nbsp; Front-end : JavaScript, Vue.js, jQuery, JSP, HTML, CSS</strong></div>
+                      <div><strong>&nbsp; &nbsp; DB : PostgreSQL, ElasticSearch</strong></div>
+                      <div><strong>&nbsp; &nbsp; ETC : Metricbeat, Kibana, Logstash, JasperReport</strong></div>
+                      <br/>
+                      <h5>2. 개인정보 접속기록 후속조치 시스템 고도화 (WEEDS BOARD 7 메이저 업그레이드)</h5>
+                      <div><strong>[참여기간]</strong> 2018.05 ~ 2018.06</div>
+                      <div><strong>[담당업무]</strong> Spring3기반 Web Application 개발</div>
+                      <div><strong>[주요실적]</strong></div>
+                      <div>&nbsp; &nbsp; 1.	Spring3 + Mybatis + Mysql기반 Web Application 개발</div>
+                      <div>&nbsp; &nbsp; 2.	Thread를 이용한 원격지 DB 및 API서버 통신 프로그램 개발</div>
+                      <div><strong>[사용기술]</strong></div>
+                      <div><strong>&nbsp; &nbsp; Back-end : Java, Spring3, Mybatis, Linux, Tomcat</strong></div>
+                      <div><strong>&nbsp; &nbsp; Front-end : JavaScript, jQuery, JSP, HTML, CSS</strong></div>
+                      <div><strong>&nbsp; &nbsp; DB : Mysql, ElasticSearch</strong></div>
+                      <br/>
+                      <h5>3. 개인정보 접속기록 관리 솔루션 고도화 (WEEDS Blackbox Suite 6 고도화)</h5>
+                      <div><strong>[참여기간]</strong> 2017.09 ~ 2018.02</div>
+                      <div><strong>[담당업무]</strong> Spring3기반 Web Application 고도화</div>
+                      <div><strong>[주요실적]</strong></div>
+                      <div>&nbsp; &nbsp; 1.	Spring3 + Mybatis + Oracle, Tibero기반 Web Application 개발 및 유지보수</div>
+                      <div>&nbsp; &nbsp; 2.	개인정보 수준진단을 위한 보고서 1종 개발</div>
+                      <div>&nbsp; &nbsp; 3.	POC 전담 개발인력으로 엔지니어와 소통하여 즉각적인 이슈 및 커스터마이징 진행</div>
+                      <div><strong>[사용기술]</strong></div>
+                      <div><strong>&nbsp; &nbsp; Back-end : Java, Spring3, Mybatis, Linux, Tomcat</strong></div>
+                      <div><strong>&nbsp; &nbsp; Front-end : JavaScript, jQuery, JSP, HTML, CSS</strong></div>
+                      <div><strong>&nbsp; &nbsp; DB : Oracle, Tibero</strong></div>
+                      <div><strong>&nbsp; &nbsp; ETC : JasperReport</strong></div>
+                      <br/>
+                      <h5>4. 개인정보 접속기록 관리 솔루션 구축</h5>
+                      <div><strong>[참여기간]</strong> 2017.03 ~ 2017.08</div>
+                      <div><strong>[담당업무]</strong> 서버 설치 및 개인정보 접속기록 관리 솔루션 구축</div>
+                      <div><strong>[주요실적]</strong></div>
+                      <div>&nbsp; &nbsp; 1.	부산시청, 한국기술대학교, 서울도시가스 등 10여개 고객사 개인정보 접속기록관리 시스템 구축</div>
+                      <div>&nbsp; &nbsp; 2.	CentOS, AIX등 Unix계열 O/S 경험</div>
+                      <div>&nbsp; &nbsp; 3.	Vim, ShellScript, TCPdump등 Linux 스킬 숙달</div>
+                      <div>&nbsp; &nbsp; 4.	Tomcat, Jeus, WebLogic등 다양한 Web Server 경험</div>
+                      <div>&nbsp; &nbsp; 5.	Linux서버상 Oracle, Tomcat, Jdk등 설치와 데이터센터 서버 입고 및 네트워크 환경 구성</div>
+                      <div><strong>[사용기술]</strong></div>
+                      <div><strong>&nbsp; &nbsp; Back-end : CentOS, AIX, Vim, ShellScript, Tomcat, Jeus, WebLogic</strong></div>
+                      <div><strong>&nbsp; &nbsp; DB : Oracle, Tibero</strong></div>
+                      <div><strong>&nbsp; &nbsp; ETC : O/S Install, Network Setup</strong></div>
+                      <br/>
+                    </ul>
                 </div>
               </div>
-              <hr />
+              <hr/>
             </div>
           </div>
+          <div class="row">
+              <div class="col">
+                <div class="row">
+                  <div class="col-md-3 col-12 text-md-right">
+                    <h4 class="gray">2016.04 ~ 2016.08</h4>
+                  </div>
+                  <div class="col-md-9 col-12">
+                    <h4>비트캠프</h4>
+                    <i class="gray">음원 스트리밍 사이트 구축</i>
+                    <ul class="pt-3">
+                        <h5>1. 음원 스트리밍 서비스 구축</h5>
+                        <div><strong>[참여기간]</strong> 2016.04 ~ 2016.08</div>
+                        <div><strong>[담당업무]</strong> Back-end 개발 및 팀원 관리</div>
+                        <div><strong>[주요실적]</strong></div>
+                        <div>&nbsp; &nbsp; 1.	ID3_tag를 이용한 음원 Metadata 분석</div>
+                        <div>&nbsp; &nbsp; 2.	OSS 분석 및 커스터마이징 (jAudio Tagger & Jplayer)</div>
+                        <div>&nbsp; &nbsp; 3.	Encoding 알고리즘 구현 및 Spring3 MVC 모델링 서버 구축</div>
+                        <div>&nbsp; &nbsp; 4.	AWS를 이용한 Cloud Service 구현</div>
+                        <div><strong>[사용기술]</strong></div>
+                        <div><strong>&nbsp; &nbsp; Back-end : Java, Spring3, Mybatis, Window, Tomcat</strong></div>
+                        <div><strong>&nbsp; &nbsp; Front-end : JavaScript, jQuery, JSP, HTML, CSS</strong></div>
+                        <div><strong>&nbsp; &nbsp; DB : Mysql</strong></div>
+                        <div><strong>&nbsp; &nbsp; ETC : jAudio Tagger, Jplayer</strong></div>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
+         
+
       <!-- Experience End -->
-
-      <!-- Project Start -->
-      <div class="row pt-5">
-        <div class="col">
-          <div class="row pb-3">
-            <div class="col">
-              <h2 class="blue">PROJECTS</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <div class="row">
-                <div class="col-md-3 col-12 text-md-right">
-                  <div class="row">
-                    <div class="col-md-12 col">
-                      <h4 class="gray">2018. 10 ~<br /></h4>
-                    </div>
-                    <div class="col-md-12 col-3 text-center text-md-right">
-                        <span class="badge badge-primary">진행 중</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-9 col-12">
-                  <h4>이츠골프 하이브리드앱 개발</h4>
-                  <i class="gray">피플커넥트</i>
-                  <ul class="pt-3">
-                    <li>
-                      Spring3 + Mybatis + Mysql 기반 RESTFul API Back-End 개발
-                    </li>
-                    <li>
-                      Ionic Framework를 활용한 하이브리드앱 개발
-                    </li>
-                    <li>
-                      카카오, 네이버 아이디로 로그인등 소셜서비스 API 연동
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col">
-              <div class="row">
-                <div class="col-md-3 col-12 text-md-right">
-                  <div class="row">
-                    <div class="col-md-12 col">
-                      <h4 class="gray">2018. 03 ~ 2018. 09<br /></h4>
-                    </div>
-                    <div class="col-md-12 col-3 text-center text-md-right">
-                        <!-- <span class="badge badge-primary">진행 중</span> -->
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-9 col-12">
-                  <h4>WEEDS blackbox Suite 7 메이저 업그레이드</h4>
-                  <i class="gray">WEEDS DNS KOREA</i>
-                  <ul class="pt-3">
-                    <li>
-                      Spring4 + Mybatis + PostgreSQL 기반 RESTFul API Back-End 서버 개발
-                    </li>
-                    <li>
-                      Vue.js를 이용한 Front-End 개발
-                    </li>
-                    <li>
-                      ElasticStack을 이용한 Linux 서버 인프라 구축
-                    </li>
-                    <li>
-                      Spring - ElasticSearch 연동 API Service 개발
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-            
-          <div class="row">
-            <div class="col">
-              <div class="row">
-                <div class="col-md-3 col-12 text-md-right">
-                  <h4 class="gray">2018.05 ~ 2018.06</h4>
-                </div>
-                <div class="col-md-9 col-12">
-                  <h4>WEEDS Board 7 메이저 업그레이드</h4>
-                  <i class="gray">WEEDS DNS KOREA</i>
-                  <ul class="pt-3">
-                    <li>
-                      Spring3 + Mybatis + Mysql 기반 Web application 개발
-                    </li>
-                    <li>
-                      Thread를 이용하여 원격지 DB 및 API서버 통신 인터페이스 개발
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-            
-          <div class="row">
-            <div class="col">
-              <div class="row">
-                <div class="col-md-3 col-12 text-md-right">
-                  <h4 class="gray">2017.09 ~ 2018.02</h4>
-                </div>
-                <div class="col-md-9 col-12">
-                  <h4>WEEDS Blakcbox Suite 6 고도화</h4>
-                  <i class="gray">WEEDS DNS KOREA</i>
-                  <ul class="pt-3">
-                    <li>
-                      Spring3 + Mybatis + Oracle&Tibero 기반 Web application 개발 및 유지보수
-                    </li>
-                    <li>
-                      JasperReport를 이용하여 통계데이터 추출 및 PDF 빌드
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-            
-          <div class="row">
-            <div class="col">
-              <div class="row">
-                <div class="col-md-3 col-12 text-md-right">
-                  <h4 class="gray">2017.03 ~ 2017.08</h4>
-                </div>
-                <div class="col-md-9 col-12">
-                  <h4>개인정보 접속기록관리 시스템 구축</h4>
-                  <i class="gray">WEEDS DNS KOREA</i>
-                  <ul class="pt-3">
-                    <li>
-                      부산시청, 한국기술대학교, 서울도시가스 등 10여개 고객사에 개인정보 접속기록관리 시스템 구축
-                    </li>
-                    <li>
-                      CentOS, AIX, HP-UX 등 Unix계열 O/S 경험
-                    </li>
-                    <li>
-                      vi, ShellScript, tcpdump 등 Linux 명령어 숙달
-                    </li>
-                    <li>
-                      Tomcat, Jeus, WebLogic등 Web Server 경험
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <hr />
-            </div>
-          </div>
-        </div>
-      </div>
-        
-      <div class="row">
-        <div class="col">
-          <div class="row">
-            <div class="col-md-3 col-12 text-md-right">
-              <h4 class="gray">2016.04 ~ 2016.08</h4>
-            </div>
-            <div class="col-md-9 col-12">
-              <h4>EMOSIC</h4>
-              <i class="gray">비트캠프</i>
-              <ul class="pt-3">
-                <li>
-                  Music Streaming Service
-                </li>
-                <li>
-                  ID3_tag를 이용한 음원 Metadata 분석
-                </li>
-                <li>
-                  OSS 분석 및 커스터마이징 (jAudio Tagger & Jplayer)
-                </li>
-                <li>
-                  Encoding 알고리즘 구현 및 Spring3 MVC 모델링 서버 구축 
-                </li>
-                <li>
-                  AWS를 이용한 Cloud Service 구현
-                </li>
-              </ul>
-            </div>
-          </div>
-          <hr />
-        </div>
-      </div>
-      <!-- Project End -->
 
       <!-- Education Start -->
       <div class="row pt-5">
@@ -546,10 +419,8 @@
               <h2 class="blue">EDUCATION</h2>
             </div>
           </div>
-
           <div class="row">
             <div class="col">
-
               <div class="row">
                 <div class="col-md-3 col-12 text-md-right">
                   <div class="row">
@@ -606,7 +477,6 @@
                   <i class="gray">컴퓨터공학전공</i>
                 </div>
               </div>
-              <hr />
             </div>
           </div>
         </div>
